@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC194AA922983A3A009D6D06 /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC194AA822983A3A009D6D06 /* TransactionsTableViewCell.swift */; };
+		DC194AAB22984149009D6D06 /* TransactionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC194AAA22984149009D6D06 /* TransactionsDataSource.swift */; };
+		DC4F5FE822977E9800F1FF14 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F5FE722977E9800F1FF14 /* StateController.swift */; };
+		DC4F5FEA2297832100F1FF14 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F5FE92297832100F1FF14 /* AccountsViewController.swift */; };
+		DC4F5FEC2297833600F1FF14 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F5FEB2297833600F1FF14 /* TransactionsViewController.swift */; };
+		DC4F5FF22297C2B000F1FF14 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F5FF12297C2AF00F1FF14 /* CreateAccountViewController.swift */; };
+		DC4F5FF62297C2DA00F1FF14 /* CreateTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F5FF52297C2DA00F1FF14 /* CreateTransactionViewController.swift */; };
 		DC640FFD229639DA0006732B /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC640FFC229639DA0006732B /* StorageController.swift */; };
+		DCB6B635229A46E700C52846 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6B634229A46E700C52846 /* CommonExtensions.swift */; };
+		DCB6B63A229A4BD600C52846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB6B639229A4BD600C52846 /* Assets.xcassets */; };
 		DCC1B0BB2295995100A4261F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1B0BA2295995100A4261F /* AppDelegate.swift */; };
-		DCC1B0BD2295995100A4261F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1B0BC2295995100A4261F /* ViewController.swift */; };
 		DCC1B0C02295995100A4261F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC1B0BE2295995100A4261F /* Main.storyboard */; };
-		DCC1B0C22295995300A4261F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC1B0C12295995300A4261F /* Assets.xcassets */; };
 		DCC1B0C52295995300A4261F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC1B0C32295995300A4261F /* LaunchScreen.storyboard */; };
+		DCC212252297E4B700DA15B1 /* AccountsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC212242297E4B700DA15B1 /* AccountsDataSource.swift */; };
+		DCC212292297F7FD00DA15B1 /* AccountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC212282297F7FD00DA15B1 /* AccountsTableViewCell.swift */; };
+		DCCBDB9D22997E9C00349241 /* CreateTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCBDB9C22997E9C00349241 /* CreateTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC194AA822983A3A009D6D06 /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		DC194AAA22984149009D6D06 /* TransactionsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsDataSource.swift; sourceTree = "<group>"; };
+		DC4F5FE722977E9800F1FF14 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		DC4F5FE92297832100F1FF14 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		DC4F5FEB2297833600F1FF14 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		DC4F5FF12297C2AF00F1FF14 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		DC4F5FF52297C2DA00F1FF14 /* CreateTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionViewController.swift; sourceTree = "<group>"; };
 		DC640FFC229639DA0006732B /* StorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		DCB6B634229A46E700C52846 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		DCB6B639229A4BD600C52846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC1B0B72295995100A4261F /* Banking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC1B0BA2295995100A4261F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCC1B0BC2295995100A4261F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCC1B0BF2295995100A4261F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCC1B0C12295995300A4261F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC1B0C42295995300A4261F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC1B0C62295995300A4261F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC212242297E4B700DA15B1 /* AccountsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsDataSource.swift; sourceTree = "<group>"; };
+		DCC212282297F7FD00DA15B1 /* AccountsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewCell.swift; sourceTree = "<group>"; };
+		DCCBDB9C22997E9C00349241 /* CreateTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCB6B636229A47EB00C52846 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC640FFC229639DA0006732B /* StorageController.swift */,
+				DC4F5FE722977E9800F1FF14 /* StateController.swift */,
+				DCB6B634229A46E700C52846 /* CommonExtensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DCB6B637229A480200C52846 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F5FE92297832100F1FF14 /* AccountsViewController.swift */,
+				DC4F5FF12297C2AF00F1FF14 /* CreateAccountViewController.swift */,
+				DCC212282297F7FD00DA15B1 /* AccountsTableViewCell.swift */,
+				DCC212242297E4B700DA15B1 /* AccountsDataSource.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		DCB6B638229A483C00C52846 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F5FEB2297833600F1FF14 /* TransactionsViewController.swift */,
+				DC4F5FF52297C2DA00F1FF14 /* CreateTransactionViewController.swift */,
+				DC194AA822983A3A009D6D06 /* TransactionsTableViewCell.swift */,
+				DC194AAA22984149009D6D06 /* TransactionsDataSource.swift */,
+				DCCBDB9C22997E9C00349241 /* CreateTransactionView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
 		DCC1B0AE2295995000A4261F = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				DCC1B0BA2295995100A4261F /* AppDelegate.swift */,
-				DCC1B0BC2295995100A4261F /* ViewController.swift */,
 				DCC1B0BE2295995100A4261F /* Main.storyboard */,
-				DCC1B0C12295995300A4261F /* Assets.xcassets */,
+				DCB6B639229A4BD600C52846 /* Assets.xcassets */,
 				DCC1B0C32295995300A4261F /* LaunchScreen.storyboard */,
 				DCC1B0C62295995300A4261F /* Info.plist */,
-				DC640FFC229639DA0006732B /* StorageController.swift */,
+				DCB6B636229A47EB00C52846 /* Common */,
+				DCB6B637229A480200C52846 /* Accounts */,
+				DCB6B638229A483C00C52846 /* Transactions */,
 			);
 			path = Banking;
 			sourceTree = "<group>";
@@ -126,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC1B0C52295995300A4261F /* LaunchScreen.storyboard in Resources */,
-				DCC1B0C22295995300A4261F /* Assets.xcassets in Resources */,
+				DCB6B63A229A4BD600C52846 /* Assets.xcassets in Resources */,
 				DCC1B0C02295995100A4261F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC1B0BD2295995100A4261F /* ViewController.swift in Sources */,
+				DC4F5FF22297C2B000F1FF14 /* CreateAccountViewController.swift in Sources */,
+				DC194AAB22984149009D6D06 /* TransactionsDataSource.swift in Sources */,
+				DC4F5FEC2297833600F1FF14 /* TransactionsViewController.swift in Sources */,
+				DC194AA922983A3A009D6D06 /* TransactionsTableViewCell.swift in Sources */,
+				DC4F5FE822977E9800F1FF14 /* StateController.swift in Sources */,
+				DC4F5FF62297C2DA00F1FF14 /* CreateTransactionViewController.swift in Sources */,
 				DCC1B0BB2295995100A4261F /* AppDelegate.swift in Sources */,
+				DCCBDB9D22997E9C00349241 /* CreateTransactionView.swift in Sources */,
+				DCC212292297F7FD00DA15B1 /* AccountsTableViewCell.swift in Sources */,
+				DC4F5FEA2297832100F1FF14 /* AccountsViewController.swift in Sources */,
+				DCB6B635229A46E700C52846 /* CommonExtensions.swift in Sources */,
+				DCC212252297E4B700DA15B1 /* AccountsDataSource.swift in Sources */,
 				DC640FFD229639DA0006732B /* StorageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
