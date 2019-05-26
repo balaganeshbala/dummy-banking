@@ -54,13 +54,12 @@ extension UIColor {
     }
     
     class func color(for index: Int) -> UIColor {
-        switch index % 6 {
-        case 0: return .lightGrassGreen
+        switch index % 5 {
+        case 0: return .liliac
         case 1: return .seafoamBlue
-        case 2: return .liliac
-        case 3: return .sunflowerYellow
-        case 4: return .peach
-        default: return .carnation
+        case 2: return .sunflowerYellow
+        case 3: return .carnation
+        default: return .peach
         }
     }
 }
